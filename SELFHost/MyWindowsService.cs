@@ -9,7 +9,7 @@ namespace SELFHost
 {
     class MyWindowsService
     {
-       
+
         private static readonly ILog _log = LogManager.GetLogger(nameof(MyWindowsService));
 
         public void Start()
